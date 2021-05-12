@@ -16,7 +16,9 @@ plugins {
 }
 
 dependencies {
-    runtimeOnly("com.h2database:h2")
+    implementation(project(":bom-core"))
 
     implementation("org.springframework.boot:spring-boot-starter-validation")
+    runtimeOnly("com.h2database:h2")
+
 }

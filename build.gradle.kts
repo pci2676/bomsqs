@@ -39,7 +39,6 @@ configure(kotlinProjects) {
         plugin<KotlinPlatformJvmPlugin>()
         plugin("io.spring.dependency-management")
         plugin("org.springframework.boot")
-        plugin("jacoco")
     }
 
     dependencyManagement {
