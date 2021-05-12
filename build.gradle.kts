@@ -28,6 +28,7 @@ allprojects {
 
 val kotlinProjects = listOf(
     project(":bom-api"),
+    project(":bom-application"),
     project(":bom-core"),
     project(":bom-worker"),
     project(":bom-clients:bom-message")

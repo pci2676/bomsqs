@@ -10,6 +10,7 @@
 bomsqs
 ㄴ buildSrc
 ㄴ bom-api
+ㄴ bom-application
 ㄴ bom-core
 ㄴ bom-worker
 ㄴ bom-clients
@@ -20,6 +21,9 @@ Kotlin 의존성을 관리하는 모듈
 
 ### bom-api
 외부요청을 받아들이는 모듈
+
+### bom-api
+공통된 비즈니스 로직을 구현하고 있는 모듈
 
 ### bom-core
 비즈니스 로직을 표현하고있는 모듈
