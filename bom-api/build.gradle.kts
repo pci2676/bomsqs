@@ -19,6 +19,7 @@ plugins {
 
 dependencies {
     implementation(project(":bom-core"))
+    implementation(project(":bom-application"))
     implementation(project(":bom-clients:bom-message"))
 
     implementation("org.springframework.boot:spring-boot-starter-web")

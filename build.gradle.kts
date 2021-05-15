@@ -51,6 +51,7 @@ configure(kotlinProjects) {
         }
 
         dependencies {
+            dependency("com.querydsl:querydsl-jpa:${Dependencies.Versions.querydsl}")
             dependencySet("io.kotest:${Dependencies.Versions.kotest}") {
                 entry("kotest-runner-junit5-jvm")
                 entry("kotest-assertions-core-jvm")

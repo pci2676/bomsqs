@@ -30,7 +30,10 @@ allOpen {
 dependencies {
     api("org.springframework.boot:spring-boot-starter-data-jpa")
     api("org.hibernate:hibernate-envers")
+    api("com.querydsl:querydsl-jpa")
 
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310")
+
+    kapt("com.querydsl:querydsl-apt:${Dependencies.Versions.querydsl}:jpa")
 }
